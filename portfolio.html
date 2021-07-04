@@ -7,117 +7,138 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>Portfolio</title>
-    <link rel="stylesheets" href="css/styles.css">
+   
 </head>
 <body>
-    <header>
-        <nav>
+    <!--HEADER NAVIGATION-->
+    <header class="header">
+        <nav class="navigation">
             <h2>
-                <a href="/index">WebStudio</a>
+                <a class="navigation-logo-header" href="#index">Web<span>Studio</span></a>
             </h2>
-            <ul>
-                <li>
-                    <a href="#">Agencja</a>
+            <ul class="navigation">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#Agencja">Agencja</a>
                 </li>
-                <li> 
-                    <a href="/Portfolio">Portfolio</a>
+                <li class=navigation-item"> 
+                    <a class="navigation-link" href="#Portfolio">Portfolio</a>
                 </li>
-                <li>
-                    <a href="#">Kontakty</a>
+                <li class=navigation-item">
+                    <a class="navigation-link" href="#Kontakty">Kontakty</a>
                 </li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+            <div class="address-box">  
+                <a class="header-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+            </div>
     </header>
+    <!--END HEADER NAVIGATION-->
     <main>
-        <!--Second Nav-->
-        <nav>
-            <ul>
+        <!--FILTERS-->
+        <nav class="filters-nav">
+            <ul class="filters-nav-list">
                 <li>
-                    <button class="button" name ="Wszystkie">Wszystkie</button>
+                    <button class="filters-nav-button" type="button">Wszystkie</button>
                 </li>
                 <li>
-                    <button class="button" name="Strony">Strony</button>  
+                    <button class="filters-nav-button" type="button">Strony</button>  
                 </li>
                 <li>
-                    <button class="button" name="Aplikacje">Aplikacje</button>
+                    <button class="filters-nav-button" type="button">Aplikacje</button>
                 </li>
                 <li>
-                    <button class="button" name="Dizajn">Dizajn</button>
+                    <button class="filters-nav-button" type="button">Dizajn</button>
                 </li>
                 <li>
-                    <button class="button" name="Marketing">Marketing</button>
+                    <button class="filters-nav-button" type="button">Marketing</button>
                 </li>
             </ul>
         </nav>
-        <!-- End Second Nav-->
-        <section>
-            <!--Gallery-->
-            <ul> 
+        <!-- END FILTERS-->
+        <!--PORTFOLIO-->
+        <section class="portfolio">
+            <ul class="portfolio-list"> 
                 <ul>
-                    <li><img src="images/imgtechnocrack.jpg" alt="Zdjęcia trzech pracowników" width="370" height="294"></li>
-                    <p>Technocrack</p>
-                    <li><a href="#">Strona internetowa</a></li>
-                </ul>
-                <ul>
-                    <li><img src="images/imggrafikaneworleangoldenstar.jpg" alt="Dwóch koszykarzy walczy o piłkę" width="370" height="294"></li>
-                    <p>Grafika New Orlean vs Golden Star</p>
-                    <li><a href="#">Dizajn</a></li>
+                    <li>
+                        <img src="images/imgtechnocrack.jpg" alt="Zdjęcia trzech pracowników" width="370" height="294"></p> 
+                        <p class="portfolio-list-title">Technocrack</p>
+                        <p class="portfolio-list-subtitles">Strona internetowa</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imgrestauracjaseafood.jpg" alt="Logo restauracji Seafood" width="370" height="294"></li>
-                    <p>Restauracja Seafood</p>
-                    <li><a href="#">Aplikacje</a></li>
+                    <li>
+                        <img src="images/imggrafikaneworleangoldenstar.jpg" alt="Dwóch koszykarzy walczy o piłkę" width="370" height="294"></p>
+                        <p class="portfolio-list-title">Grafika New Orlean vs Golden Star</p>
+                        <p class="portfolio-list-subtitles">Dizajn</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imgprojektprime.jpg" alt="Słuchawki" width="370" height="294"></li>
-                    <p>Projekt Prime</p>
-                    <li><a href="#">Marketing</a></li>  
-                </ul>
-                    <li><img src="images/imgprojektboxes.jpg" alt="Pudełka" widht="370" height="294"></li>
-                    <p>Projekt Boxes</p>
-                    <li><a href="#">Aplikacje</a></li>
+                    <li>
+                        <img src="images/imgrestauracjaseafood.jpg" alt="Logo restauracji Seafood" width="370" height="294"></li>
+                        <p class="portfolio-list-title">Restauracja Seafood</p>
+                        <p class="portfolio-list-subtitles">Aplikacje</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imgInspirationhasnoborders.jpg" alt="Zdjęcie monitora" widht="370" height="294"></li>
-                    <p>Inspiration has no Borders</p>
-                    <li><a href="#">Strona internetowa</a></li>
+                    <li>
+                        <img src="images/imgprojektprime.jpg" alt="Słuchawki" width="370" height="294"></p>
+                        <p class="portfolio-list-title">Projekt Prime</p>
+                        <p class="portfolio-list-subtitles">Marketing</p>
+                    </li>
+                </ul>
+                    <li>
+                        <img src="images/imgprojektboxes.jpg" alt="Pudełka" widht="370" height="294"></p>
+                        <p class="portfolio-list-title">Projekt Boxes</p>
+                        <p class="portfolio-list-subtitles">Aplikacje</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imgmagazynlimitededition.jpg" alt="Zawieszki Indentyfikatory" widht="370" height="294"></li>
-                    <p>Inspiration has no Borders</p>
-                    <li><a href="#">Dizajn</a></li>
+                    <li>
+                        <img src="images/imgInspirationhasnoborders.jpg" alt="Zdjęcie monitora" widht="370" height="294"></p>
+                        <p class="portfolio-list-title">Inspiration has no Borders</p>
+                        <p class="portfolio-list-subtitles">Strona internetowa</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imgprojektlab.jpg" alt="Magazyn ilustrowany z limitowanej edycji" widht="370" height="294"></li>
-                    <p>Projekt LAB</p>
-                    <li><a href="#">Marketing</a></li>
+                    <li>
+                        <img src="images/imgmagazynlimitededition.jpg" alt="Zawieszki Indentyfikatory" widht="370" height="294"></p>
+                        <p class="portfolio-list-title">Inspiration has no Borders</p>
+                        <p class="portfolio-list-subtitles">Dizajn</p>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="images/imggrowingbusiness.jpg" alt="Pracowik pisze na laptopie" widht="370" height="294"></li>
-                    <p>Growing Business</p>
-                    <li><a href="#">Aplikacja</a></li>
+                    <li>
+                        <img src="images/imgprojektlab.jpg" alt="Magazyn ilustrowany z limitowanej edycji" widht="370" height="294"></p>
+                        <p class="portfolio-list-title">Projekt LAB</p>
+                        <p class="portfolio-list-subtitles">Marketing</p>
+                    </li>
                 </ul>
-                 
+                <ul>
+                    <li><img src="images/imggrowingbusiness.jpg" alt="Pracowik pisze na laptopie" widht="370" height="294"></p>
+                    <p class="portfolio-list-title">Growing Business</p>
+                    <p class="portfolio-list-subtitles">Aplikacja</p>
+                </li>
+                </ul>
             </ul>
-            <!--End Gallery-->
+            <!--END PORTFOLIO-->
         </section>
 
     </main>
 
-<footer>
+<footer class="footer">
     <section>
-        <h3><a href="">WebStudio</a></h3>
+        <h3><a class="navigation-logo-footer" href="#index">Web<span>Studio</span></a></h3>
             <address>
-                <p>Warszawa, Aleje Jerozolimskie 21</p>
+                <p class="footer-address">Warszawa, Aleje Jerozolimskie 21</p>
                     <ul>
                         <li>
-                            <a href="mailto:info@example.com">info@example.com</a>
+                            <a class="footer-mail-address" href="mailto:info@example.com">info@example.com</a>
                         </li>
                         <li>
-                            <a href="tel:+48111111111">+48 111 111 111</a>
+                            <a class="footer-phone-number" href="tel:+48111111111">+48 111 111 111</a>
                         </li>
                     </ul>
             </address>
