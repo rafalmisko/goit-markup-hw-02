@@ -72,6 +72,8 @@ color: var(--main-color-logo-second);
 
 }
 
+.navigation {list-style-type: none; }
+
 /*==========NAV PHONE AND MAIL==========*/
 
 .header-phone-number {
@@ -110,14 +112,14 @@ color: var(--main-color-logo-second);
 /*==========COMPONENTS ----> CONTAINS ALL COMPONENTS ==========*/
 
 /*==========FILTERS==========*/
+
 .filters-nav-list {
 
+  list-style-type: none;
   width: 121px;
   height: 38px;  
   border-radius: 4px;
-
   
-
 }
 
 .filters-nav-button:hover,
@@ -136,6 +138,7 @@ color: var(--main-color-logo-second);
 
 
 /**==========PORTFOLIO==========*/
+.portfolio-list {list-style-type: none;}
 
 .portfolio-list-title {
    
