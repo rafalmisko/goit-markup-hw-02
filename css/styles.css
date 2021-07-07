@@ -45,13 +45,8 @@ a {
 
 }
 
-.navigation-logo-header > span {
+.web { color: var(--main-color-logo-second); }
 
-color: var(--main-color-logo-second);
-
-}
-
- 
 
 /*==========END LOGO==========*/ 
 
@@ -113,12 +108,31 @@ color: var(--main-color-logo-second);
 
 /*==========FILTERS==========*/
 
-.filters-nav-list {
+.filters-nav-button {
 
   list-style-type: none;
   width: 121px;
   height: 38px;  
   border-radius: 4px;
+  left: 510px;
+  top: 174px;
+  background: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+}
+
+/*.filters-nav-list {
+
+  list-style-type: none;
+  width: 121px;
+  height: 38px;  
+  border-radius: 4px;
+  left: 510px;
+  top: 174px;
+  background: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;*/
   
 }
 
@@ -138,7 +152,7 @@ color: var(--main-color-logo-second);
 
 
 /**==========PORTFOLIO==========*/
-.portfolio-list {list-style-type: none;}
+.portfolio-list {list-style: none;}
 
 .portfolio-list-title {
    
