@@ -7,8 +7,7 @@ body {
 :root {
 
   --main-color: #212121;
-  --main-color-logo: #2196F3;
-  --main-color-logo-second: #212121;
+  --second-color-logo: #2196F3;
   --second-color-logo-footer: #cbcbce; 
   --main-color-link-hover-focus: #2196f3;
   --main-color-link: #757575;
@@ -22,6 +21,7 @@ body {
   --portfolio-list-title: ##212121;
   --portfolio-list-subtitles: #757575;
   
+  
 
 }
 
@@ -29,7 +29,7 @@ body {
 a {
     text-decoration: inherit;
     cursor: inherit; 
-    color: inherit
+    color: inherit;
   }
 
 /*==========HEADER LOGO==========*/
@@ -40,19 +40,29 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
-  color: var(--main-color-logo);
+  color: var(--main-color);
   text-decoration: inherit; 
 
 }
 
-.web { color: var(--main-color-logo-second); }
+.navigation-logo-header:hover,
+.navigation-logo-header:focus {
+
+   --second-color-logo: #2196F3;
+}
+
+.web 
+{ color: var(--second-color-logo); }
+.web:hover,
+.web:focus 
+{ --second-color-logo: #2196F3;   }
 
 
 /*==========END LOGO==========*/ 
 
 /*==========HEADER NAVIGATION==========*/
 
-.navigation-link {
+.navigation-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -60,14 +70,14 @@ a {
   color: var(--main-color);
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation-item:hover,
+.navigation-item:focus {
   color: var(--main-color-link-hover-focus);
   cursor: pointer; 
 
 }
 
-.navigation {list-style-type: none; }
+.navigation-menu {list-style-type: none; }
 
 /*==========NAV PHONE AND MAIL==========*/
 
@@ -91,13 +101,15 @@ a {
 .header-mail-address:hover,
 .header-mail-address:focus {
   
-   color: var(--main-color-link-hover-focus);}
+   color: var(--main-color-link-hover-focus);
+  }
 
 .header-phone-number:hover,
 .header-phone-number:focus {
 
-  color: var(--main-color-link-hover-focus);}
+  color: var(--main-color-link-hover-focus);
 }
+
 
 /*==========END NAV PHONE AND MAIL==========*/
 
@@ -108,21 +120,7 @@ a {
 
 /*==========FILTERS==========*/
 
-.filters-nav-button {
-
-  font-weight: 500;    
-  font-size: 16px;    
-  line-height: 1.625;    
-  width: 121px;    
-  height: 38px;    
-  background: var(--button-color);    
-  border-radius: 4px;    
-  border-color: var(--button-color);   
-  cursor: pointer;
-
-}
-
-/*.filters-nav-list {
+.filters-nav-list {
 
   list-style-type: none;
   width: 121px;
@@ -132,11 +130,12 @@ a {
   top: 174px;
   background: #2196F3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;*/
+  border-radius: 4px;
+  
   
 }
 
-.filters-nav-button:hover,
+.filters-nav-button:hover
  {
   
   background-color: var(--main-color-button-background-active); 
@@ -237,7 +236,7 @@ a {
 .footer-phone-number:hover,
 .footer-phone-number:focus {
 
-  color: var(--main-color-link-hover-focus);}
+  color: var(--main-color-link-hover-focus);
 }
 
 /**==========END FOOTER==========*/
