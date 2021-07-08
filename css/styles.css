@@ -8,7 +8,7 @@ body {
 
   --main-color: #212121;
   --second-color-logo: #2196F3;
-  --second-color-logo-footer: #cbcbce; 
+  --logo-footer-light: #cbcbce; 
   --main-color-link-hover-focus: #2196f3;
   --main-color-link: #757575;
   --main-color-link-tel: rgba(255, 255, 255, 0.6);
@@ -25,12 +25,17 @@ body {
 
 }
 
-
 a {
     text-decoration: inherit;
     cursor: inherit; 
     color: inherit;
   }
+
+ul {
+
+  list-style-type: none; 
+}
+
 
 /*==========HEADER LOGO==========*/
 
@@ -48,14 +53,17 @@ a {
 .navigation-logo-header:hover,
 .navigation-logo-header:focus {
 
-   --second-color-logo: #2196F3;
+   cursor: pointer; 
+
 }
 
-.web 
+.logo-nav 
 { color: var(--second-color-logo); }
-.web:hover,
-.web:focus 
-{ --second-color-logo: #2196F3;   }
+
+.logo-nav:hover,
+.logo-nav:focus { 
+
+  cursor: pointer;   }
 
 
 /*==========END LOGO==========*/ 
@@ -120,18 +128,19 @@ a {
 
 /*==========FILTERS==========*/
 
-.filters-nav-list {
+.filters-nav-button {
 
-  list-style-type: none;
-  width: 121px;
+
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 1.625;  
+  width: 121px; 
   height: 38px;  
-  border-radius: 4px;
-  left: 510px;
-  top: 174px;
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  
+  background: var(--main-color-button-background);   
+  border-radius: 4px;   
+  border-color: var(--main-color-button-background);  
+  cursor: pointer;
+
   
 }
 
@@ -196,20 +205,21 @@ a {
 
 }
 
-.navigation-logo-footer {
+.logo-footer-blue {
   
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--main-color-logo);
+  color: var(--second-color-logo);
+  cursor: pointer; 
 }
 
-.navigation-logo-footer > span {
+.logo-footer-light {
  
-  /*color: var(--second-color-logo-footer;)*/
-  color: #cbcbce;
+  color: var(--logo-footer-light);
+  cursor: pointer; 
 
 }
 
@@ -218,7 +228,7 @@ a {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-color-link-tel);
-  text-decoration: none;
+  cursor: pointer; 
   
 }
 
@@ -231,7 +241,9 @@ a {
 .footer-mail-address:hover,
 .footer-mail-address:focus {
   
-   color: var(--main-color-link-hover-focus);}
+   color: var(--main-color-link-hover-focus);
+   cursor: pointer; 
+  }
 
 .footer-phone-number:hover,
 .footer-phone-number:focus {
