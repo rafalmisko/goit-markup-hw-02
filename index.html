@@ -11,77 +11,70 @@
 <body>
 
 <!--header-->
-    <header class="header">
-        <nav>
-            <h2>
-                <a href="#">WebStudio</a>
-            </h2>
-                <ul>
-                    <li>
-                        <a href="#">Agencja</a>
-                    </li>
-                    <li>
-                        <a href="/portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Kontakty</a>
-                    </li>
-                </ul>
-        </nav>
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a href="tel:+48111111111">+48 111 111 111</a>
-        
-   </header>
+<header class="header">
+    <a class="navigation-logo-header" href=index.html>Web<span class="logo-nav">Studio</span></a>
+    <nav class="navigation">
+        <ul class="navigation-menu">
+            <li><a class="navigation-item" href=index.html>Agencja</a></li>
+            <li><a class="navigation-item" href=portfolio.html>Portfolio</a></li>
+            <li><a class="navigation-item" href="#Kontakty">Kontakty</a></li>
+        </ul>
+    </nav>
+    <div class="address-box">
+        <a class="header-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
+</header>
 <!--end header-->
 
 <!--main-->
    <main>
-        <section>
+        <section class="hero-background">
             <div>
-                <h1>EFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</h1>
+                <h1 class="hero-header">EFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</h1>
             </div>
             <div>
-                <button name="button">Zamów usługę</button>
+                <button class="hero-button" type="button">Zamów usługę</button>
             </div>
         </section>
         <section>
           <ul>
               <li>
                   <h3>LOREM IPSUM</h3> 
-                <div>
+                <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                   Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </div>
+                </p>
               </li>
             </ul>      
             <ul>
                 <li>
                     <h3>LOREM IPSUM</h3> 
-                <div>  
+                <p>  
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vel arcu sem. Sed non sodales dui. Interdum et
                     malesuada
-                </div>
+                </p>
                 </li>
             </ul>
             <ul>
                 <li>
                     <h3>LOREM IPSUM</h3> 
-                <div>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vel arcu sem. Sed non sodales dui. Interdum et
                     malesuada
-                </div>
+                </p>
                 </li>
             </ul>
             <ul>
                 <li>
                     <h3>LOREM IPSUM</h3> 
-                <div>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nam vel arcu sem. Sed non sodales dui. Interdum et
                     malesuada
-                </div>
+                </p>
                 </li>
             </ul>
         </section>
@@ -100,6 +93,7 @@
                     <li>
                             <img src="images/imgproductd.jpg" alt="Product Designer" width="270" height="260">
                             <p>John Doe</p>
+                            <!--remember h3?-->
                             <p>Product Designer</p>
                     </li>
                     <li>
@@ -122,20 +116,19 @@
 
    </main>
 <!--end main-->
-    <footer>
+    <footer class="footer">
         <section>
-             <h3><a href="#">WebStudio</a></h3> 
-                <address>
-                    <p>Warszawa, Aleje Jerozolimskie 21</p>   
-                        <ul>
-                            <li>
-                               <a href="mailto:info@example.com">info@example.com</a> 
-                            </li>
-                            <li>
-                               <a href="tel:+48111111111">+48 111 111 111</a>  
-                            </li>
-                        </ul>  
-                </address>   
+            <h3><a href="#index"><span class="logo-footer-blue">Web</span><span class="logo-footer-light">Studio</span></a>
+            </h3>
+
+
+            <address>
+                <a class="footer-address" href="https://goo.gl/maps/imskWViYpNZ9BuhFA">Warszawa, Aleje Jerozolimskie 21</a>
+                <ul>
+                    <li><a class="footer-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="footer-phone-number" href="tel:+48111111111">+48 111 111 111</a></li>
+                </ul>
+            </address>
         </section>
     </footer>
 </body>

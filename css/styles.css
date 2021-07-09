@@ -20,7 +20,7 @@ body {
   --footer-background-color: #2F303A;
   --portfolio-list-title: ##212121;
   --portfolio-list-subtitles: #757575;
-  
+  --hero-color-background: #2F303A;
   
 
 }
@@ -123,6 +123,48 @@ ul {
 
 /*==========END HEADER NAVIGATION==========*/
 
+/*==========HERO==========*/
+
+.hero-background {
+
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--hero-color-background);
+}
+
+.hero-header {
+
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--main-color-button-link-active);
+ 
+ 
+}
+
+.hero-button {
+  
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: var(--main-color-button-link-active);
+  background-color: var(--second-color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+    
+  }
+
+.hero-button:hover,
+.hero-button:focus { 
+
+  cursor: pointer;
+  color: var(--main-color);  
+}
 
 /*==========COMPONENTS ----> CONTAINS ALL COMPONENTS ==========*/
 
@@ -140,8 +182,7 @@ ul {
   border-radius: 4px;   
   border-color: var(--main-color-button-background);  
   cursor: pointer;
-
-  
+ 
 }
 
 .filters-nav-button:hover
@@ -184,6 +225,7 @@ ul {
 
 .footer {
   background-color: #2F303A;
+
 }
 
 .footer-address { 
@@ -217,7 +259,12 @@ ul {
 }
 
 .logo-footer-light {
- 
+  
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   color: var(--logo-footer-light);
   cursor: pointer; 
 
