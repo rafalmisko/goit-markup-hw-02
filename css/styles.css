@@ -256,7 +256,7 @@ ul {
 
 .logo-footer-blue {
   
-  font-family: "Raleway";
+  font-family: "Raleway", "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -267,7 +267,7 @@ ul {
 
 .logo-footer-light {
   
-  font-family: "Raleway";
+  font-family: "Raleway", "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
