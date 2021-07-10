@@ -231,7 +231,7 @@ ul {
 /**==========FOOTER==========*/
 
 .footer {
-  background-color: #2F303A;
+  background-color: var(--footer-background-color);
 
 }
 
