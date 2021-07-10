@@ -21,7 +21,7 @@ body {
   --portfolio-list-title: ##212121;
   --portfolio-list-subtitles: #757575;
   --hero-color-background: #2F303A;
-  
+  --background-color-our-team: #F5F4FA;
 
 }
 
@@ -199,6 +199,13 @@ ul {
 
 /*==========END COMPONENTS==========*/
 
+/*==========OUR TEEM==========*/
+
+.our-team { background-color: var(--background-color-our-team);
+
+}
+
+/*==========END OUR TEEM==========*/
 
 /**==========PORTFOLIO==========*/
 .portfolio-list {list-style: none;}
